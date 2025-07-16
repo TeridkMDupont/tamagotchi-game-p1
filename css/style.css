@@ -1,0 +1,38 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+
+.actionsInforBox{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start
+
+}
+
+
+.actions {
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items:flex-end;
+margin: auto;
+padding:24px 72px;
+border: solid;
+}
+
+.statBox {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    justify-content: space-between;
+    border-radius: 13px;
+    padding: 20px 5px;
+    width: 10%;
+    color: green;
+    font-size: 40px;
+}
+    
