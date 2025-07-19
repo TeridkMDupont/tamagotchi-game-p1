@@ -8,14 +8,44 @@
     <title>Tamagotchi</title>
 </head>
 <body>
-    <div class ="actionsInfoBox"> 
-        <button class="actions">Dance </button>
-        <button class="actions">Eat</button>
-        <button class="actions">Sleep</button>
+    <header>
+      <h1 class="title-container">
+        <div class="title-op"></div>
+        <div class="title-x"></div>
+        <div class="title-tamalogo"></div>
+      </h1>
+    </header>
+    <main>
+         <button class="restartButton ">
+          Restart ?
+        </button>
+      <div class="screen">
+        <div class="characterContainer"></div>
+        
+
+        <div class="overlay darken"></div>
+
+       
+        <button class="startButton">START GAME</button>
+      </div>
+      <div class="infoBox">
         <ul class="statBox">
-            <li id="energyLevel">Energy</li>
-            <li id="hungerLevel">Hunger</li>
-            <li id="bordeomLevel">Boredom</li>
+          <li>Hunger: <span class="hungerStat"></span></li>
+          <li>Sleepy: <span class="sleepinessStat"></span></li>
+          <li>Boredom: <span class="funStat"></span></li>
+        </ul>
+        
+        <div class="petMessageBox">
+          <span class="petNameStat"></span>:
+          <p class="petSays"></p>
+        </div>
+        <div class ="actions">
+            <button class="button"id="dance">DANCE</button>
+            <button class="button" id="eat">EAT</button>
+            <button class="button" id="sleep">SLEEP</button>
+        </div>
+      </div>
+    </main>
         </ul>
     </div>
 </body>
