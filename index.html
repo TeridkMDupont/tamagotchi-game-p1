@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" />
     <link defer src="./js/app.js" />
-    <title>Tamagotchi</title>
+    <title>One Piece X Tamagotchi</title>
 </head>
 <body>
     <header>
@@ -16,17 +16,15 @@
       </h1>
     </header>
     <main>
-         <button class="restartButton ">
+         <button onClick="startOver()" class="restartButton ">
           Restart ?
         </button>
       <div class="screen">
         <div class="characterContainer"></div>
-        
-
         <div class="overlay darken"></div>
 
        
-        <button class="startButton">START GAME</button>
+        <button onClick="startGame()" class="startButton">START GAME</button>
       </div>
       <div class="infoBox">
         <ul class="statBox">

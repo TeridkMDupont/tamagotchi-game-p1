@@ -9,6 +9,8 @@
 
 /*-------------- Functions -------------*/
 
-
+function startOver() {
+  window.location.reload();
+}
 /*----------- Event Listeners ----------*/
 
